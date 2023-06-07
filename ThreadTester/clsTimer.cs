@@ -74,7 +74,7 @@ namespace ThreadTester
                     // pozastavit thread
                     Thread.Sleep(mintIntervalIn_ms);
                     // do{ } while ();
-                    TimeSpan = mintIntervalIn_ms*0,001;
+                    TimeSpan = mintIntervalIn_ms*0,001; TimeSpan.FromMicroseconds (double 0.001);
                 }
             } while (mblStop == false);
         }
